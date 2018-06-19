@@ -3,111 +3,66 @@
 
     <item
         is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2957a38c039dad9b7eb0ba18a61990ea5dfa7807.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_a2363058ff2b105c958465b9ac933c1434035c4d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_a046ae7042b91935e40c6f4b1bce8a2b4f4a95f5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_77bb0bebc67c7c24c4814d9b5c3ecb24339ba21f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1cdc3264f915b80e942d13af5d1ba272b8ef77e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_9578e0eca390279dcb73539b847b3b226c446780.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_a6717454eaba492ae94ba2fe85ea99d72e37601e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_dab6a0329117461f1df92c428af55e077720dde0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3bf4e274b4a676b73fa0fdba148b15ac83c4869f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_156c9b2a3c8e0dd16fc758a2b8af831bf08af0d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_eef69b299921049d24c51a45ba1750816984fe00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_cca7bb0e4f952deef19623c77746b643349695cc.jar" />
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_c820faa1a67adca2a7c03a9850e9fd855a024acb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b1042cf1902a111fa1419f87c0d7afa4c883b787.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_83f5ea82340bb60a71fd207a34473e10ccea5950.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_3fc475eb21b911ef25c76efb7da4639ff9ced592.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_e3c33be21fc3821d5ea274dd5aa2b465e3fc02c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b0afeb9c9806d9bd6d78f7f4d203a04bbd712c06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_8b04bd9e06e5f5f9baec122deaf610925f8c4b05.jar" />
     </item>
     <item
         is-multidex="false"
@@ -116,25 +71,70 @@
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_1a8d4e4020f6936186e575c2beb8ed3c96988560.jar" />
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_1a8d4e4020f6936186e575c2beb8ed3c96988560.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4cbe6d37f47872e94ec29f9569c10aeb6922ca62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_b399e3550d182872acc802fc2f70c27aae5b19c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_45a5d122c576933dc73a4a3969686113a7bf2d09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_1f9bafe8201a670e0ce43166838dfff0d107ab1c.jar" />
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_8da573e3d1349c44854d340120891aedfc772056.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_4612bb0de8cb86297680747c2d93e4769c247b24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8f941ea9114c9a3eb4d2a5d9f5b45d95ec02e0bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/developer/xxxandroid/SMS-Forward-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_10d54c8aa14e5accbda3536dee65e46c95d6fa54.jar" />
+        <dex dex="/home/developer/xxxandroid/SMS-Forward/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_6aeb05724da0c4fd32186e83a911ff82d3e6abf3.jar" />
     </item>
 
 </items>

@@ -29,9 +29,9 @@
             android:id="@+id/btnSendSMS"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="Test"
+            android:text="Save"
             android:layout_centerInParent="true"
-            android:onClick="sendSMS">
+            android:onClick="savePhoneNumber">
         </Button>
 
     </LinearLayout>
