@@ -1,7 +1,9 @@
 package roxma.org.sms_forward;
 
+import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.ContentObserver;
 import android.database.Cursor;
@@ -10,6 +12,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.SmsManager;
+import android.telephony.SmsMessage;
 import android.telephony.SubscriptionManager;
 import android.util.Log;
 import android.view.View;
@@ -30,16 +33,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         String number = getSharedPreferences("data", Context.MODE_PRIVATE).getString("number", "");
-        Log.d("log","number: " + number);
+        Log.d("log", "number: " + number);
         EditText editText = (EditText) findViewById(R.id.edit_phone_number);
         editText.setText(number, TextView.BufferType.EDITABLE);
-        smsObserver = new SmsObserver(this, null);
-        getContentResolver().registerContentObserver(SMS_INBOX, true,
-                smsObserver);
+//        smsObserver = new SmsObserver(this, null);
+//        getContentResolver().registerContentObserver(SMS_INBOX, true,
+//                smsObserver);
     }
 
-    public void savePhoneNumber(View v)
-    {
+    public void savePhoneNumber(View v) {
         EditText editText = (EditText) findViewById(R.id.edit_phone_number);
         String number = editText.getText().toString();
 
@@ -49,15 +51,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public List<?> getSubScription(){
-        SubscriptionManager sm = SubscriptionManager.from(getApplicationContext());
-        List<?> list = sm.getActiveSubscriptionInfoList();
-        return list;
-    }
 
     public void getSmsFromPhone() {
+        String sendnumber = getSharedPreferences("data", Context.MODE_PRIVATE).getString("number", "");
         ContentResolver cr = getContentResolver();
-        String[] projection = new String[] { "address","body","type","person" };
+        String[] projection = new String[]{"address", "body", "type", "person"};
         Cursor cur = cr.query(SMS_INBOX, projection, null, null, "date desc");
         if (null == cur)
             return;
@@ -66,10 +64,10 @@ public class MainActivity extends AppCompatActivity {
             String body = cur.getString(1);
             int type = cur.getInt(2);
             String person = cur.getString(3);
-            String message_content = "["+number+"]"+body;
-            if(type==1){
-                Log.i("Message",number+":"+body);
-                SmsManager.getDefault().sendTextMessage(number,null,message_content,null,null);
+            String message_content = "[" + number + "]" + body;
+            if (type == 1) {
+                Log.i("Message", number + ":" + body);
+//                SmsManager.getDefault().sendTextMessage(sendnumber, null, message_content, null, null);
             }
 
         }
@@ -87,4 +85,19 @@ public class MainActivity extends AppCompatActivity {
             getSmsFromPhone();
         }
     }
+
+    public class TransmitReceiver extends BroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Bundle bundle = intent.getExtras();
+            SmsMessage msg = null;
+            if (null != bundle) {
+                getSmsFromPhone();
+            }
+        }
+
+
+
     }
+}
